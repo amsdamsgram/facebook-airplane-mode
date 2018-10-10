@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "facebook-airplane-mode",
+  "version": "1.0",
+
+  "description": "Set facebook in airplane mode",
+  "homepage_url": "https://github.com/amsdamsgram/facebook-airplane-mode",
+  "icons": {
+    "32": "icons/logo-32.png",
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/"],
+      "js": ["airplane-mode.js"]
+    }
+  ]
+}
