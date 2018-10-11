@@ -1,3 +1,4 @@
+#stories_pagelet_rhc,
 div[id^="topnews_main_stream"] {
   opacity: 0 !important;
   display: none;
