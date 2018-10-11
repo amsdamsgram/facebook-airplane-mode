@@ -1,4 +1,5 @@
 #stories_pagelet_rhc,
+#pagelet_reminders,
 div[id^="topnews_main_stream"] {
   opacity: 0 !important;
   display: none;
