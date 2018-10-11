@@ -13,7 +13,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.facebook.com/"],
+      "matches": ["*://*.facebook.com/", "https://*.facebook.com/?ref=logo"],
       "js": ["airplane-mode.js"],
       "css": ["airplane-mode.css"],
       "run_at": "document_start"
