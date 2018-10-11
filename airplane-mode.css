@@ -1,0 +1,4 @@
+div[id^="topnews_main_stream"] {
+  opacity: 0 !important;
+  display: none;
+}
