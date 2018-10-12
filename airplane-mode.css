@@ -1,6 +1,14 @@
 #stories_pagelet_rhc,
 #pagelet_reminders,
+.jewelCount,
 div[id^="topnews_main_stream"] {
   opacity: 0 !important;
   display: none;
+}
+
+/* Hide notifications, messenger and friend requests icons */
+#fbNotificationsJewel a,
+#u_0_e a,
+#fbRequestsJewel a {
+  opacity: 0 !important;
 }

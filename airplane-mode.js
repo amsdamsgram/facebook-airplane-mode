@@ -1,5 +1,8 @@
 const elementsToRemove =
-  "#stories_pagelet_rhc," + "#pagelet_reminders" + "[id^=topnews_main_stream]";
+  "#stories_pagelet_rhc," +
+  "#pagelet_reminders" +
+  ".jewelCount" +
+  "[id^=topnews_main_stream]";
 
 const removeNode = node => node.parentNode.removeChild(node);
 
